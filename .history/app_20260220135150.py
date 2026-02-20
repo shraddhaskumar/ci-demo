@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Version 1: Hello from CI + Trivy + K8s!"
+    return "Hello from CI + Trivy + K8s!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
